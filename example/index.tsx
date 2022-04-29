@@ -5,7 +5,7 @@ import { ProductCard, ProductImage, ProductTitle, ProductButtons } from '../.';
 
 const product = {
   id: '1',
-  title: 'Memezolanos Card Mug'
+  title: 'Memezolanos Card Mug v2'
 }
 
 const App = () => {
@@ -19,9 +19,9 @@ const App = () => {
     >
       {({ count, reset, increaseBy, isMaxCountReached, maxCount }) => (
         <>
-          <ProductImage/>
-          <ProductTitle/>
-          <ProductButtons/>
+          <ProductImage />
+          <ProductTitle />
+          <ProductButtons />
         </>
       )}
     </ProductCard>
